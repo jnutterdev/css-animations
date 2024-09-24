@@ -6,4 +6,4 @@ COPY package*.json .
 
 RUN npm ci --audit=false --fund=false
 
-CMD ["npm", "start"]
+CMD ["pnpm", "start"]
