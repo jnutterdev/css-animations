@@ -1,0 +1,25 @@
+:root {
+  --platinum: #e8e8e8ff;
+  --parchment: #f3eaccff;
+  --taupe-gray: #96939bff;
+  --english-violet: #564256ff;
+  --coral: #fc814aff;
+  --dark-platinum: #171717;
+
+  --main-color: var(--platinum);
+  --secondary-color: var(--parchment);
+  --tertiary-color: var(--taupe-gray);
+  --accent-color: var(--english-violet);
+  --highlight-color: var(--coral);
+  --background-color: var(--dark-platinum);
+
+  --font-family: 'Roboto', sans-serif;
+  --font-size: 16px;
+  --font-weight: 400;
+
+  background: var(--background-color);
+  color: var(--main-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+}
